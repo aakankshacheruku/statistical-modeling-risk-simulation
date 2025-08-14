@@ -1,0 +1,13 @@
+scenarios:
+  - scenario_name: baseline
+    y0: [1.0, 1.0, 1.0]
+    t_end: 20.0
+    params: {sigma: 10.0, beta: 2.6666667, rho: 28.0}
+  - scenario_name: higher_rho
+    y0: [1.0, 1.0, 1.0]
+    t_end: 20.0
+    params: {sigma: 10.0, beta: 2.6666667, rho: 35.0}
+  - scenario_name: low_sigma
+    y0: [1.0, 1.0, 1.0]
+    t_end: 20.0
+    params: {sigma: 6.0, beta: 2.6666667, rho: 28.0}
